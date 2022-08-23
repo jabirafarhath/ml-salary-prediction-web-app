@@ -22,3 +22,4 @@ def show_predict_page():
         salary = model.predict(x)
         st.subheader(f"The estimated salary is ${salary[0]:.2f}")
    
+show_predict_page()   

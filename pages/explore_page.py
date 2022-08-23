@@ -8,3 +8,5 @@ df = pd.read_csv('Salary_Data.csv')
 def show_explore_page():
     st.subheader('Explore')
     st.line_chart(df)
+
+show_explore_page()
